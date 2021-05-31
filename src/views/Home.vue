@@ -1,14 +1,18 @@
 <template>
   <div class="home">
     <player />
+    <bubbles />
   </div>
 </template>
 
 <script>
 import Player from '../components/Player.vue'
+import Bubbles from '../components/Bubbles.vue'
+
 export default {
   components: {
-    Player
+    Player,
+    Bubbles
   }
 }
 </script>
@@ -22,6 +26,6 @@ export default {
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: #ffedff;
+  background-color: #FADDE1;
 }
 </style>
