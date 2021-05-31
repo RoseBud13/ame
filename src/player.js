@@ -16,6 +16,8 @@ class Dispatcher {
 
 class Player {
   constructor () {
+    var AudioContext = window.AudioContext          
+              || window.webkitAudioContext;
     this.audioContext = new AudioContext()
     this.playList = []
     this.playIndex = 0
