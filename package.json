@@ -1,5 +1,5 @@
 {
-    "name": "ame",
+    "name": "bubble-player",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -22,11 +22,11 @@
         "babel-eslint": "^10.0.3",
         "eslint": "^5.16.0",
         "eslint-plugin-vue": "^5.0.0",
+        "execa": "latest",
         "less-loader": "^5.0.0",
         "sass": "^1.19.0",
         "sass-loader": "^8.0.0",
-        "vue-template-compiler": "^2.6.10",
-        "execa": "latest"
+        "vue-template-compiler": "^2.6.10"
     },
     "eslintConfig": {
         "root": true,
