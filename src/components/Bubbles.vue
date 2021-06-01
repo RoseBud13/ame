@@ -19,6 +19,7 @@ export default {
   overflow: hidden;
   li {
     position: absolute;
+    z-index:-100;
     // set bottom to make bubbles come from the dwon side of screen
     bottom: -160px;
     // default bubble size
